@@ -1,6 +1,8 @@
 # micropython-color-wheel
 Color changers for Neopixel / WS2812 LED Strips / rings. 
 
+### You no longer need any external NeoPixel / WS2812 libraries for the latest versions of MicroPython. It comes built-in now. See the code
+
 If your Neopixel is of the 5V type, connect the Neopixel ring to power with any of the GND pins (3,8,13,18,23,33 or 38) on the Raspberry Pi Pico, +5V to BusPower and the DataIN in the code here is connected to GPIO 0, but of course you can configure this. 
 
 For LEDs with higher voltage you need to provide external power but common ground. Watch polarity or you will fry your Raspberry Pi Pico. 
